@@ -1,7 +1,6 @@
 #!/bin/bash
 
-alias test='bin/test --include-branch-commits'
-alias style='bin/style --include-branch-commits'
-alias check='bin/style --include-branch-commits;bin/srb typecheck -a'
-alias logs='tail -f log/development.log'
+cat ~/dotfiles/aliases >> ~/.zshrc
+
+source ~/.zshrc
 
