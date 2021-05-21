@@ -1,6 +1,9 @@
 #!/bin/bash
 
 cat ~/dotfiles/aliases >> ~/.zshrc
+cp ~/dotfiles/dotfiles/log_sql.rb /src/github.com/shopify/shopify/test/support/helpers/
+cp ~/dotfiles/dotfiles/gitignore ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
 
 source ~/.zshrc
 
