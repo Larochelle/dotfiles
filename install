@@ -7,3 +7,6 @@ git config --global core.excludesfile ~/.gitignore
 
 source ~/.zshrc
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
